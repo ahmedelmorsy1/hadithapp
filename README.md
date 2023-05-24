@@ -1,16 +1,8 @@
 # hadithapp
 
-A new Flutter project.
+Al-Bukhari
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Screenshot_20230515-143812](https://github.com/ahmedelmorsy1/hadithapp/assets/38796224/00ff4c03-1ac5-4cc2-9508-46a9c80a2628)
+![Screenshot_20230515-143820](https://github.com/ahmedelmorsy1/hadithapp/assets/38796224/8e3dd9e8-f273-419f-a56d-a6b94be42cd6)
+![Screenshot_20230515-143825](https://github.com/ahmedelmorsy1/hadithapp/assets/38796224/fc59db32-3053-4f31-adee-a3a5fc2065bd)
+![Screenshot_20230515-143838](https://github.com/ahmedelmorsy1/hadithapp/assets/38796224/72b09482-e778-4ab3-aa52-2a4f89becb5e)
