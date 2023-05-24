@@ -1,45 +1,4 @@
-// import 'dart:convert';
 
-// import 'package:flutter/foundation.dart';
-// import 'package:get/get.dart';
-// import 'package:hadithapp/model/hadith_model.dart';
-// import 'package:http/http.dart' as http;
-
-// class HadithController extends GetxController {
-//   var isLoading = false.obs;
-//   HadithModel? hadithModel;
-
-//   @override
-//   Future<void> onInit() async {
-//     super.onInit();
-//     fetchData();
-//   }
-
-//   fetchData() async {
-//     try {
-//       isLoading(true);
-//       http.Response response = await http.get(Uri.tryParse(
-//           "https://www.hadithapi.com/public/api/hadiths?apiKey=\$2y\$10\$d4KD9DvplQ6BVeG5xVHMlc9Uyc71dZn3oQskU9AOWDYqUF29Ru")!);
-//       if (response.statusCode == 200) {
-//         ///data successfully
-
-//         var result = jsonDecode(response.body);
-
-//         hadithModel = HadithModel.fromJson(result);
-//       } else {
-//         if (kDebugMode) {
-//           print('error fetching data');
-//         }
-//       }
-//     } catch (e) {
-//       if (kDebugMode) {
-//         print('Error while getting data is $e');
-//       }
-//     } finally {
-//       isLoading(false);
-//     }
-//   }
-// }
 
 import 'dart:convert';
 
@@ -68,7 +27,7 @@ class HadithController extends GetxController {
     try {
       isLoading(true);
       http.Response response = await http.get(Uri.tryParse(
-          "https://cdn.jsdelivr.net/gh/fawazahmed0/hadith-api@1/editions/ara-bukhari.json")!);
+          "url")!);
       if (response.statusCode == 200) {
         var decoded =
             json.decode(response.body); // <-- Decode the response body
