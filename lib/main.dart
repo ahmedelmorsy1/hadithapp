@@ -17,10 +17,7 @@ class MyApp extends StatelessWidget {
       theme: appTheme(),
       debugShowCheckedModeBanner: false,
        home:  const StartScreen(),
-      // initialRoute: AppPages.INITIAL,
-      // getPages: AppPages.routes,
-      title: 'Rest API Using GetX Demo',
-      // initialRoute: RouteConstant.homeScreen,
+      
     );
   }
 }
